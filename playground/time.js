@@ -11,7 +11,9 @@ var moment = require('moment');
 
 // var date = moment();
 
+
+
 var createdAt = 1234;
-var date = moment(createdAt);
+var date = moment(moment().valueOf());
 
 console.log(date.format('H:mm'));
